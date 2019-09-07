@@ -2,23 +2,11 @@
 
 /* Nav Animation */
 
-#nav a li::after{position:absolute;background-color:#DC143C;opacity:0.5;width:100px;height: 5px;content:'';left:60px;transition: 1s;}
-#nav a li::before{position:absolute;background-color:#DC143C;opacity:0.5;width:10px;height: 50px;content:'';left:330px;transition: 1s;}
-
-#nav a:nth-child(1) li:after{top:390px;}
-#nav a:nth-child(2) li:after{top:440px;}
-#nav a:nth-child(3) li:after{top:490px;}
-#nav a:nth-child(4) li:after{top:570px;}
-#nav a:nth-child(5) li:after{top:620px;}
-
-#nav a:nth-child(1) li:before{top:345px;}
-#nav a:nth-child(2) li:before{top:395px;}
-#nav a:nth-child(3) li:before{top:445px;}
-#nav a:nth-child(4) li:before{top:525px;}
-#nav a:nth-child(5) li:before{top:575px;}
-
+#nav li::after{bottom:50px;display: block;position:relative;background-color:#DC143C;opacity:0.5;width:100px;height: 5px;content: "";left:-10px;transition: 1s;}
+#nav span::after{bottom:45px;position:relative;display: block;background-color:#DC143C;opacity:0.5;width:10px;height: 50px;content:'';left:260px;transition: 1s;}
 
 #nav li:hover:after{width:280px}
-#nav li:hover:before{width:90px; left:250px;}
+#nav span:hover:after{width:90px; left:180px;}
 
+#nav span{width:320px;display: block;}
 /* /Nav Animation */
