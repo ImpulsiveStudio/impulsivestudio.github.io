@@ -1,0 +1,39 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="{{ '/assets/css/MasterCSS.css' | relative_url}}">
+    <link rel="stylesheet" href="{{ '/assets/css/navCategory.css' | relative_url}}">
+
+    <!-- javascript -->
+    <script src="{{ '/assets/javascript/MasterJS.js' | relative_url}}">
+    </script>
+    <script>
+    function CatOpen(){
+    var Cat = document.getElementById("CategoryBox");
+    if (Cat.style.left == ""){
+        Cat.style.left = "400px";
+    }
+    else {
+        Cat.style.left = "";
+    }
+        
+}
+
+function CatClose(){
+    var Cat = document.getElementById("CategoryBox");
+    Cat.style.left = "";
+}
+
+
+    </script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.gif">
+
+    <!--RSS-->
+
+
+</head>

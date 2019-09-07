@@ -1,0 +1,34 @@
+/* Main */
+body{padding:0;margin:0;color:white;background-color: black;}
+a{text-decoration: none;color:inherit;}
+/* /Main */
+
+
+/* Font */
+@font-face {
+    font-family:'Minimal';
+    src: '/assets/minimal.otf';
+}
+/* /Font */
+
+/* SideBanner */
+#sideBannerOutline{z-index: 999;text-align:center;position:fixed; width:400px; height:100vh; background-color:black;color:white;font-size:80px;}
+#sideBannerSizer{padding:20px;text-align:center;width:400px;height:100%;box-sizing: border-box;display:table;}
+
+#profileOutline{width:100px;height:100px;display:table-cell;vertical-align: middle;}
+#profile{width:360px;height:300px;}
+#navBox{width:360px;height:400px;font-size:50px;font-family: Minimal;text-align: left;padding-left:10px;}
+#nav{list-style: none;margin-top:20px;}
+#CategoryBox{position: fixed;transition: 1s;font-size: 50px;font-family: minimal;text-align: center;left: 0;z-index:998;background-color: #2E2E2E;width:410px;height:100vh;}
+#CategorySizer{width:410px;box-sizing: border-box;padding-left:80px;padding-right:80px;}
+#menuIcon{position: absolute; right:10px;top:10px;}
+#Category{padding-top:10px;}
+/* /SideBanner */
+
+
+
+#mainBoxOutline{margin-left:400px;}
+#mainBoxOutrigger{background-color:black;text-align:center;color:white;}
+#mainBoxSizer{padding:10px;}
+
+/*Home*/
