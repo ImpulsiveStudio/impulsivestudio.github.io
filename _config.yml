@@ -22,8 +22,8 @@ title: ImpulsiveStudio
 email: worrospeed@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site is just a black board for my impulse
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Studio" # the subpath of your site, e.g. /blog
+url: "http://ImpulsiveStudio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
