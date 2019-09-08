@@ -22,7 +22,7 @@ a{text-decoration: none;color:inherit;}
 #nav li{height: 55px;}
 #CategoryBox{position: fixed;transition: 1s;font-size: 50px;font-family: minimal;text-align: center;left: 0;z-index:998;background-color: #2E2E2E;width:410px;height:100vh;}
 #CategorySizer{width:410px;box-sizing: border-box;padding-left:80px;padding-right:80px;}
-#searchIcon{position: absolute;left:20px;}
+#searchIcon{position: absolute;left:10px;top:11px;}
 #menuIcon{position: absolute; right:10px;top:10px;}
 #Category{padding-top:10px;}
 /* /SideBanner */
