@@ -7,7 +7,7 @@ a{text-decoration: none;color:inherit;}
 /* Font */
 @font-face {
     font-family:'Minimal';
-    src: '{{ '/assets/minimal.otf' | relative_url}}';
+    src: '{{ '../assets/minimal.otf' | relative_url}}';
 }
 /* /Font */
 
