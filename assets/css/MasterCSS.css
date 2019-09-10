@@ -21,13 +21,14 @@ a{text-decoration: none;color:inherit;}
 #navBox{position: absolute; top:350px;width:360px;height:400px;font-size:50px;font-family: Minimal;text-align: left;padding-left:10px;}
 #nav{list-style: none;margin-top:20px;}
 #nav li{height: 55px;}
-#CategoryBox{position: fixed;transition: 1s;font-size: 50px;font-family: minimal;text-align: center;left: 0;z-index:998;background-color: #2E2E2E;width:410px;height:100vh;opacity: 0.8;}
+#CategoryBox{position: fixed;transition: 1s;font-size: 50px;font-family: minimal;text-align: center;left: 0;z-index:998;background-color: #bababa;width:410px;height:100vh;opacity: 0.8;}
 #CategorySizer{width:410px;box-sizing: border-box;padding-left:80px;padding-right:80px;opacity: 1.0;}
+#Cathandle{position: absolute;display: block;background-color:#DC143C;opacity: 0.7;top:0px;right: 0px;height: 100%;width:20px;}
 #searchIcon{position: absolute;left:10px;top:11px;}
 #menuIcon{position: absolute; right:10px;top:10px;}
 #Category{padding-top:10px;}
 #Catlist{list-style: none;text-align: left;padding-left: 0px;}
-.CatLittle{list-style: none;}
+.CatLittle{list-style: none;left:10px;}
 /* /SideBanner */
 
 
