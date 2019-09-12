@@ -1,29 +1,35 @@
 ---
 layout: default
+Category: Coding
 ---
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
 <head>
-<meta charset="utf-8">
 <title>ImpulsiveStudio::Home</title>
 
 </head>
 
 <body>
-
-    <div id="bodywrapper">
         <!--mainBox-->
-        <div id="mainBoxOutline">
-            <div id="mainBoxOutrigger">
-                <div class="mainBoxSizer">
-                    {{content}} <br><br><br>전체 글 보기가 올라갈 장소입니다.<br><br><br>아직은 아무런 내용이 없습니다.<br><br><br>추가예정<br><br><br>D<br><br><br>E<br><br><br>F<br><br><br>G<br><br><br>H<br><br><br>I<br><br><br>J<br><br><br>K<br><br><br>L<br><br><br>M<br><br><br>N<br><br><br>O<br><br><br>
+    <div id="mainBoxOutline">
+        <div id="mainBoxOutrigger">
+            <div id="mainBoxSizer">
+                <div id="mainCat">
+
                 </div>
+                <div id="postBox">
+                    {% for post in site.posts %}
+                        <div class="postDes">
+                            {{post.title}}
+                            {{post.content}}
+                            {{post.Category}}
+                        </div>
+                    
 
+                    {% endfor %}
+
+                </div>
             </div>
-
         </div>
     </div>
 
 </body>
-</html>
