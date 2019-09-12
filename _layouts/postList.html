@@ -8,16 +8,36 @@
             <div id="mainBoxOutrigger">
                 <div id="mainBoxSizer">
                     <div id="mainCat">
-                        {{layout.Category}}
+
+                        {% if page.subCat %}
+                            {{page.subCat}}
+                        {% else %}
+                            {{page.Category}}
+                        {% endif %}
+
                     </div>
                     <div id="postBox">
                         {% for post in site.posts %}
-                            {% if post.subCat == layout.subCat %}
+                            {% if post.Category == page.Category %}
+                                {% if page.subCat %}
+                                    {% if post.subCat == page.subCat %}
+                                        <div class="postDes">
+                                            <a href="{{post.url}}">asd</a>
+                                            {{post.url}}
+                                            {{post.subCat}}
+                                            {{post.title}}
+                                            {{post.content}}
+                                        </div>
+                                    {% endif %}
+                                {%else%}
                                 <div class="postDes">
+                                    <a href="{{post.url}}">asd</a>
+                                    {{post.url}}
                                     {{post.subCat}}
                                     {{post.title}}
                                     {{post.content}}
                                 </div>
+                                {% endif %}
                             {% endif %}
                         {% endfor %}
 
