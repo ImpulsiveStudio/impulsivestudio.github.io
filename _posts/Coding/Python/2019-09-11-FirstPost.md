@@ -1,7 +1,8 @@
 ---
 layout: "default"
-category: "Coding"
-subCat: "Python"
+Category: "Study"
+subCat: "Coding"
+permalink: "/Study/Coding/FirstPost"
 ---
 
 asdfahilfh uiaw flddflsd
