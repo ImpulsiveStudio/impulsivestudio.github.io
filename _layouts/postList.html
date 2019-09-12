@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+    {% include head.html %}
+    <body>
+        {% include SideBanner.html %}
+        <div id="mainBoxOutline">
+            <div id="mainBoxOutrigger">
+                <div id="mainBoxSizer">
+                    <div id="mainCat">
+                        {{layout.Category}}
+                    </div>
+                    <div id="postBox">
+                        {% for post in site.posts %}
+                            {% if post.subCat == layout.subCat %}
+                                <div class="postDes">
+                                    {{post.subCat}}
+                                    {{post.title}}
+                                    {{post.content}}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

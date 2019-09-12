@@ -1,35 +1,9 @@
 ---
-layout: default
-Category: Coding
+layout: "postList"
+Category: "Coding"
+subCat: "Python"
 ---
 
 <head>
 <title>ImpulsiveStudio::Home</title>
-
 </head>
-
-<body>
-        <!--mainBox-->
-    <div id="mainBoxOutline">
-        <div id="mainBoxOutrigger">
-            <div id="mainBoxSizer">
-                <div id="mainCat">
-
-                </div>
-                <div id="postBox">
-                    {% for post in site.posts %}
-                        <div class="postDes">
-                            {{post.title}}
-                            {{post.content}}
-                            {{post.Category}}
-                        </div>
-                    
-
-                    {% endfor %}
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
