@@ -7,8 +7,17 @@
         <div id="mainBoxOutline">
             <div id="mainBoxOutrigger">
         <main>
-
-            {{ content }}
+            <div id = "post">
+                <div style="padding-bottom:30px;">
+                    <h1>{{page.title}}</h1>
+                </div>
+                <div style="text-align:left;border-bottom:2px solid white;margin-bottom:100px;">
+                    <h2>{{page.description}}</h2>
+                </div>
+                <div style="text-align:left;">
+                                    {{ content }}
+                </div>
+            </div>
         </main>
     </div>
     </div>

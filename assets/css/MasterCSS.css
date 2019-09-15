@@ -1,5 +1,5 @@
 /* Main */
-body{padding:0;margin:0;color:white;background-color: #dfdfdf;}
+body{padding:0;margin:0;color:white;background-color: #dfdfdf;font-family: Minimal,SN}
 a{text-decoration: none;color:inherit;}
 /* /Main */
 
@@ -7,6 +7,10 @@ a{text-decoration: none;color:inherit;}
 @font-face {
     font-family:'Minimal';
     src: url('../font/minimal.otf');
+}
+@font-face{
+    font-family: 'SN';
+    src: url('../font/SN.ttf')
 }
 /* /Font */
 
@@ -18,10 +22,10 @@ a{text-decoration: none;color:inherit;}
 #profileOutline{position: relative;width:360px;height:300px;font-size: 60px;}
 #profileIMG{position: absolute;width:250px;height:auto;left: 60px;}
 #profileText{position: absolute;left:-10px;top:260px;width: auto;}
-#navBox{position: absolute; top:350px;width:360px;height:400px;font-size:50px;font-family: Minimal;text-align: left;padding-left:10px;}
+#navBox{position: absolute; top:350px;width:360px;height:400px;font-size:50px;text-align: left;padding-left:10px;}
 #nav{list-style: none;margin-top:20px;}
 #nav li{height: 55px;}
-#CategoryBox{position: fixed;transition: 0.5s;font-size: 50px;font-family: minimal;text-align: center;left: 0;z-index:998;background-color: #bababa;width:410px;height:100vh;opacity: 0.8;}
+#CategoryBox{position: fixed;transition: 0.5s;font-size: 50px;text-align: center;left: 0;z-index:998;background-color: #bababa;width:410px;height:100vh;opacity: 0.8;}
 #CategorySizer{width:410px;box-sizing: border-box;padding-left:80px;padding-right:80px;opacity: 1.0;}
 #searchIcon{position: absolute;left:10px;top:11px;}
 #searchIcon img{width: 50px;}
@@ -38,8 +42,12 @@ a{text-decoration: none;color:inherit;}
 #mainBoxOutline{margin-left:400px;}
 #mainBoxOutrigger{background-color:#dfdfdf;text-align:center;color:black;padding:10px;box-sizing: border-box;width: 100%;height: 100%;}
 #mainBoxSizer{padding:10px;margin-left: 150px;margin-right: 150px;}
-#mainCat{padding-bottom: 10px;border-bottom: 3px solid white;padding-left: 20px;margin-top: 70px;text-align: left;font-family: minimal;color:black;font-size: 70px;}
+#mainCat{padding-bottom: 10px;border-bottom: 3px solid white;padding-left: 20px;margin-top: 70px;text-align: left;color:black;font-size: 70px;}
 #postBox{position: relative;top:20px;text-align: left;}
-.postDes{font-family: minimal;}
-.postDes h1{font-size: 50px;font-weight: 100;}
+.postDes h1{font-size: 50px;font-weight: 100;margin-bottom: 0px;}
+#post{margin-top:170px;margin-left: 150px;margin-right: 150px;}
+#post p{margin:30px;font-size: 20px;}
+#post h1{font-size:60px;}
+#post h2{font-weight: 100;}
+
 /*Home*/
