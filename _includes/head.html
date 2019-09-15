@@ -2,8 +2,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{layout.title}}</title>
 
+    {% if {layout.title}%}
+        <title>{{layout.title}}</title>
+    {% else %}
+        <title>{{page.title}}</title>
+    {% endif %}
     <!-- CSS-->
     <link rel="stylesheet" href="{{ '/assets/css/MasterCSS.css' | relative_url}}">
     <link rel="stylesheet" href="{{ '/assets/css/navCategory.css' | relative_url}}">
@@ -28,7 +32,6 @@
 
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="/assets/favicon.gif">
 
     <!--RSS-->
 

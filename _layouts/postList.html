@@ -21,22 +21,21 @@
                             {% if post.Category == page.Category %}
                                 {% if page.subCat %}
                                     {% if post.subCat == page.subCat %}
-                                        <div class="postDes">
-                                            <a href="{{post.url}}">asd</a>
-                                            {{post.url}}
-                                            {{post.subCat}}
-                                            {{post.title}}
-                                            {{post.content}}
-                                        </div>
+                                        <a href="{{post.url}}">
+                                            <div class="postDes">
+                                                <h1>{{post.title}}</h1><br>
+                                                {{post.description}}
+                                            </div>
+                                        </a>
                                     {% endif %}
                                 {%else%}
-                                <div class="postDes">
-                                    <a href="{{post.url}}">asd</a>
-                                    {{post.url}}
-                                    {{post.subCat}}
-                                    {{post.title}}
-                                    {{post.content}}
-                                </div>
+                                <a href="{{post.url}}">
+                                    <div class="postDes">
+                                        <h1>{{post.title}}</h1><br>
+                                        {{post.description}}
+
+                                    </div>
+                                </a>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
