@@ -45,9 +45,10 @@ a{text-decoration: none;color:inherit;}
 #mainCat{padding-bottom: 10px;border-bottom: 3px solid white;padding-left: 20px;margin-top: 70px;text-align: left;color:black;font-size: 70px;}
 #postBox{position: relative;top:20px;text-align: left;}
 .postDes h1{font-size: 50px;font-weight: 100;margin-bottom: 0px;}
+.postDes h2{margin-top:0;}
 #post{margin-top:170px;margin-left: 150px;margin-right: 150px;}
 #post p{margin:30px;font-size: 20px;}
 #post h1{font-size:60px;}
-#post h2{font-weight: 100;}
+#post h2{font-weight:100;}
 
 /*Home*/
