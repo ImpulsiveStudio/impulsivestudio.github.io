@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+    {% include head.html %}
+    <body>
+        {% include SideBanner.html %}
+        <div id="mainBoxOutline">
+            <div id="mainBoxOutrigger">
+        <main>
+            <div id = "post">
+                <div style="padding-bottom:30px;">
+                    <h1>{{layout.title}}</h1>
+                </div>
+                <div style="text-align:left;border-bottom:2px solid #dfdfdf;margin-bottom:100px;">
+                    <h2>{{layout.description}}</h2>
+                </div>
+                <div style="text-align:left;">
+                                    {{ content }}
+                </div>
+            </div>
+        </main>
+    </div>
+    </div>
+
+    </body>
+</html>
