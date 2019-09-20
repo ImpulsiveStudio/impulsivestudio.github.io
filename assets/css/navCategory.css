@@ -2,8 +2,8 @@
 
 /* Nav Animation */
 
-#nav li::after{bottom:55px;display: block;position:relative;background-color:#DC143C;opacity:0.7;width:100px;height: 5px;content: "";left:-10px;transition: 1s;}
-#nav span::after{bottom:50px;position:relative;display: block;background-color:#DC143C;opacity:0.7;width:10px;height: 55px;content:'';left:260px;transition: 1s;}
+#nav li::after{bottom:55px;display: block;position:relative;background-color:#DDDDFF;opacity:0.7;width:100px;height: 5px;content: "";left:-10px;transition: 1s;}
+#nav span::after{bottom:50px;position:relative;display: block;background-color:#DDDDFF;opacity:0.7;width:10px;height: 55px;content:'';left:260px;transition: 1s;}
 
 #nav li:hover:after{width:280px}
 #nav span:hover:after{width:90px; left:180px;}
