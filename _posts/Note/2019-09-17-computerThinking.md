@@ -1,7 +1,7 @@
 ---
 layout: "default"
 Category: "Study"
-subCat: "Coding"
+subCat: "Note"
 title: "소프트웨어적 사유 -1"
 description: '20190917 소프트웨어적 사유 수업 노트정리'
 ---
