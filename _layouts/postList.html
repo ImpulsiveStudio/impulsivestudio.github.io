@@ -16,31 +16,31 @@
                         {% endif %}
 
                     </div>
-                    <div id="postBox">
+                    <ul id="postBox">
                         {% for post in site.posts %}
                             {% if post.Category == page.Category %}
                                 {% if page.subCat %}
                                     {% if post.subCat == page.subCat %}
                                         <a href="{{post.url}}">
-                                            <div class="postDes">
+                                            <li class="postDes">
                                                 <h1>{{post.title}}</h1><br>
                                                 <h2>{{post.description}}</h2>
-                                            </div>
+                                            </li>
                                         </a>
                                     {% endif %}
                                 {%else%}
                                 <a href="{{post.url}}">
-                                    <div class="postDes">
+                                    <li class="postDes">
                                         <h1>{{post.title}}</h1><br>
                                         <h2>{{post.description}}</h2>
 
-                                    </div>
+                                    </li>
                                 </a>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
 
-                    </div>
+                    </ul>
                 </div>
             </div>
         </div>
