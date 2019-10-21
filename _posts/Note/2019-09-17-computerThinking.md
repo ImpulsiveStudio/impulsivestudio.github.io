@@ -2,8 +2,8 @@
 layout: "default"
 Category: "Study"
 subCat: "Note"
-title: "소프트웨어적 사유 -1"
-description: '20190917 소프트웨어적 사유 수업 노트정리'
+title: "소프트웨어적 사유"
+description: '소프트웨어적 사유 수업 정리.'
 ---
 
 먼저 추상화에 대해 설명해야 겠다.
