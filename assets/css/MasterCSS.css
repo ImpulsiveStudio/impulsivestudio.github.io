@@ -46,13 +46,12 @@ a{text-decoration: none;color:inherit;}
 #post{margin-top:140px;margin-left: auto;margin-right: auto;background-color: transparent;width: 700px;}
 #post p{margin:30px;font-size: 20px;}
 #post h1{font-size:50px;}
-#post h2{font-weight: normal;}
 
 /* Post List*/
 #mainCat{padding-bottom: 10px;border-bottom: 3px solid #dfdfdf;padding-left: 20px;margin-top: 70px;text-align: left;color:black;font-size: 70px;}
 #postBox{position: relative;top:20px;text-align: left;list-style:none;padding-left:0;}
 .postDes h1{font-size: 35px;font-weight: 100;margin-bottom: 0px;}
-.postDes h2{font-size: 20px;margin-top:0;}
+.postDes h2{font-size: 20px;margin-top:0;font-weight: normal;}
 .postDes{transition: 0.5s;height: 100px;}
 .postDes:hover{background-color: #dfdfdf;padding-left: 10px;}
 #postBox li::after{left: 650px;opacity: 0.7;bottom:102px;content: "";position: relative;display: block;width:20px;height: 124px;background-color: #DDDDFF;}
