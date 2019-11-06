@@ -2,7 +2,6 @@
 layout: "default"
 Category: "To Do"
 title: "일러스트레이터를 배워보자"
-permalink: "/Study/Coding/Exercise"
 description: "블로그 디자인용"
 ---
 

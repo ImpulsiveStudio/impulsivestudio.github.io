@@ -2,7 +2,6 @@
 layout: "default"
 Category: "To Do"
 title: "솔리드윜스를 배워야 돼"
-permalink: "/Study/Coding/Exercise"
 description: "feat RFID"
 ---
 
