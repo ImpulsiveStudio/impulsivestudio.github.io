@@ -2,7 +2,6 @@
 layout: "default"
 Category: "To Do"
 title: "컴퓨터적 사고 정리"
-permalink: "/Study/Coding/Exercise"
 description: "적폐청산"
 ---
 
