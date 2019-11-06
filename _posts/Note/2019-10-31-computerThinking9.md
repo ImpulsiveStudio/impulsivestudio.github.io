@@ -253,7 +253,7 @@ MailBox[3] = letter라고 할 수 있겠지?
 
 각각의 연결은 에지(Edge,arc,line)으로 표현된다.
 
-![노드엣지](/assets/photo/nodeEdge.png)
+![노드엣지](/assets/photo/nodeEdge.PNG)
 
 주로 sns의 관계망이나 서울 지하철 같은 자료를 표현할 때 사용하는 자료구야.
 
@@ -295,7 +295,7 @@ DB의 자료 저장 방식이다.
 
 프로그램의 함수 호출도 스택구조로 한다네?
 
-![functionstack](/assets/Photo/functionStack.png)
+![functionstack](/assets/Photo/FunctionStack.PNG)
 
 깊이 우선 탐색 depth forst search
 
