@@ -2,7 +2,7 @@
 layout: "default"
 Category: "Study"
 subCat: "Note"
-title: "컴퓨터적 사고 - 데이터의 표현"
+title: "[컴퓨터적 사고]데이터의 표현 - 1"
 description: '9주차 소프트웨어적 사유 정리'
 ---
 
@@ -300,3 +300,35 @@ DB의 자료 저장 방식이다.
 깊이 우선 탐색 depth forst search
 
 ![dept](/assets/Photo/depth.PNG)
+
+5.큐(queue)
+
+큐는 리스트의 특별한 구조로서,
+
+처음 들어온 자료가 처음 처리되는 리스트를 말합니다.
+
+FIFO(first in first out)이라고 합니다.
+
+처음 큐에 들어오는것을 인큐, 나가는 것을 디큐라고 한다.
+
+그런데 큐를 사용할 때 문제가 있는데,
+
+인큐를 하는 동시에 디큐를 하게 되는 것을 반복하게 되면,
+
+나중에는 인큐를 할 공간이 없어져보려
+
+그래서 생긴 것이 원형 큐야.
+
+원형 큐의 이미지는 데이터가 인큐되고 디큐되는 동안에도,
+
+데이터 통의 끝으로 전해지지 않지.
+
+![BFS](/assets/Photo/BFS.PNG)
+
+큐에는 우선순위 큐라는 것도 있어.
+
+우선순위 큐는 힙(heap)이라는 자료구조를 이용해서 표현하는데,
+
+![HEAP](/assets/Photo/HEAP.PNG)
+
+![MH](/assets/Photo/MH.PNG)
