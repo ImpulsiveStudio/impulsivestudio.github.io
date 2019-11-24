@@ -2,7 +2,7 @@
 layout: "default"
 Category: "Study"
 subCat: "Note"
-title: "[컴퓨터적 사고]추상화와 알고리즘"
+title: "[컴퓨터처럼 생각하기]추상화와 알고리즘"
 description: '소프트웨어적 사유'
 ---
 
